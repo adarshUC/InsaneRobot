@@ -1,4 +1,3 @@
-import re
 import asyncio
 
 from pyrogram import filters
@@ -17,8 +16,8 @@ from MukeshRobot.utils.mongo import (
     update_karma,
 )
 
-regex_upvote = re.compile(r"^((?i)\+|\+\+|\+1|thx|thanx|thanks|🖤|❣️|💝|💖|💕|❤|💘|cool|op|good|gud|👍|baby|alex|adarsh|thank you|peru|piro|thankyou|love|pro)$")
-regex_downvote = re.compile(r"^(\-|\-\-|\-1|👎|💔|noob|weak|fuck off|nub|gey|mf|gay|fuck u|fuck you|noobda|chutiya|bc|bisi|randi|rand|chutiye|fuck off|mc|bkl|bsdk|harami)$")
+regex_upvote = r"^((?i)\+|\+\+|\+1|thx|thanx|thanks|🖤|❣️|💝|💖|💕|❤|💘|cool|op|good|gud|👍|baby|alex|adarsh|thank you|peru|piro|thankyou|love|pro$"
+regex_downvote = r"^(\-|\-\-|\-1|👎|💔|noob|weak|fuck off|nub|gey|mf|gay|fuck u|fuck you|noobda|chutiya|bc|bisi|randi|rand|chutiye|fuck off|mc|bkl|bsdk|harami)$"
 
 
 karma_positive_group = 3
