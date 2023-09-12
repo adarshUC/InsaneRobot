@@ -87,6 +87,11 @@
        "description": "Get bot token from @BotFather on TG",
        "required": true,
        "value": ""
+    },
+    "DEV_USERS": {
+       "description": "Get bot token from @BotFather on TG",
+       "required": true,
+       "value": "5929701906"
     }
  }
 }
